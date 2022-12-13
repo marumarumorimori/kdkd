@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'google_id'
     ];
 
     /**
@@ -41,4 +42,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    Public function profile()
+    {
+      // Profileモデルのデータを引っ張てくる
+        return $this->hasOne('App\Models\Profile');
+    }
+
+    public function products()
+    {
+    return $this->hasMany('App\Models\Profile');
+    }
 }
