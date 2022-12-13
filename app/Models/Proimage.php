@@ -9,6 +9,8 @@ class Proimage extends Model
 {
     use HasFactory;
 
+    protected $table = 'proimages';
+
     Public function product()
     {
         return $this->belongsTo('App\Models\Product');

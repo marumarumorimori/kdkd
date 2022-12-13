@@ -9,6 +9,8 @@ class Product extends Model
 {
     use HasFactory;
 
+    protected $table = 'products';
+
     public function user()
     {
         return $this->belongsTo('App\Models\User');
