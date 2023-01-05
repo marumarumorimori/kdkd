@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\BuyerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,4 +41,8 @@ require __DIR__.'/adminauth.php';
 Route::controller(GoogleController::class)->group(function(){
     Route::get('auth/google', 'redirectToGoogle')->name('auth.google');
     Route::get('auth/google/callback', 'handleGoogleCallback');
+});
+
+Route::group(['prefix' => 'buyer', 'as' => 'buyer.'], function() {
+    Route::get('/home', [BuyerController::class, 'index'])->name('index');
 });

@@ -53,4 +53,9 @@ class User extends Authenticatable
     {
     return $this->hasMany('App\Models\Profile');
     }
+
+    public function corabo()
+    {
+    return $this->belongsTo('App\Models\Corabo');
+    }
 }

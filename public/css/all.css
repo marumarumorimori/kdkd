@@ -1,0 +1,291 @@
+img {
+    width: 100%;
+}
+
+input {
+    border: 2px solid rgb(116, 116, 116);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* ヘッダーの最初 */
+header {
+    margin-bottom: 20px;
+}
+.header-top {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 1px solid rgb(171, 171, 171);
+}
+.header-top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.header-top-left-logo {
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+.header-top-left-fotm input{
+border: 1px solid #000;
+padding: 5px 10px;
+}
+.header-top-right {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-right li a{
+    /* background-color: aqua; */
+    padding: 5px 10px;
+}
+.header-top-right li a:last-child{
+    margin-left: 10px;
+}
+.header-bottom {
+    /* background-color: rgb/(255, 0, 144); */
+    padding: 15px 5%;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom-searchselect {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.header-bottom-searchselect ul {
+    margin-right: 20px;
+}
+.header-bottom-buttons a{
+    /* background-color: antiquewhite; */
+    margin-left: 20px;
+}
+
+
+/* ヘッダーの最後 */
+
+/* メインの最初 */
+.wrapper {
+    display: flex;
+}
+
+main {
+    /* background-color: antiquewhite; */
+    width: 80%;
+    padding: 20px ;
+}
+/* メインの最後 */
+
+.main-div {
+    margin-bottom: 30px;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.main-div  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maindiv-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maindiv-flex div{
+    border: 1px solid rgb(79, 79, 79);
+    padding: 5px;
+    margin-right: 10px;
+}
+.maindiv-flex div:last-child{
+    margin-right: 0px;
+}
+.maindiv-flex div p{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-bottom: 10px;
+}
+.maindiv-flex div h4{
+    font-size: 1.1.rem;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-bottom: 10px;
+}
+
+.maindiv-flex div dt {
+    float: left ;
+    clear: left ;
+    margin-right: 0.5em ;
+    width: 120px ;
+    padding: 5px;
+}
+
+.maindiv-flex div dd {
+    float: left ;
+    margin-left: 1em ;
+    padding: 5px;
+}
+
+
+
+.main-div  ul li{
+    text-align: center;
+}
+.main-div  ul li img {
+    margin-bottom: 10px;
+}
+.w-150 {
+    width: 150px;
+}
+.rad {
+    border-radius: 50%;
+}
+
+
+/* corabのフォーム */
+.corab-form {
+    /* background-color: aqua; */
+}
+
+.corab-form div {
+    /* background-color: rgb(255, 102, 0); */
+    margin-bottom: 10px;
+    display: flex;
+}
+.r {
+    width: 20%;
+    /* background-color: antiquewhite; */
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+}
+
+.corab-form-submit {
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+.corab-form-submit input {
+    background-color: blue;
+    border: none;
+    margin: 30px auto 0 auto;
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+/* corabのフォーム */
+
+/* iraiira */
+.cat {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.irai-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+}
+/* iraiira */
+
+
+/* サイドバーの最初 */
+.sidebar {
+    /* background-color: bisque; */
+
+    width: 20%;
+    padding: 20px 50px;
+    font-size: 0.9rem;
+}
+.sidebar p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.question {
+    background-color: aqua;
+    display: block;
+}
+
+.question input{
+    background-color: rgb(94, 152, 12);
+}
+.sidebar-buttons a{
+    display: inline-block;
+    background-color: rgb(140, 255, 0);
+    padding: 20px 65px;
+    border-radius: 10px;
+    margin-bottom:30px ;
+    font-weight: bold;
+
+
+
+}
+/* サイドバーの最後*/
+
+footer {
+    background-color: rgb(91, 91, 91);
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    color: #fff;
+    padding: 50px 5%;
+
+}
+
+.footer-cat p {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-cat ul li{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.footer-question {
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    color: #000;
+    padding: 20px;
+}
+.footer-question textarea{
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.footer-question div {
+    text-align: center;
+}
+.footer-question-subbtn {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px 50px;
+    margin: 30px auto 0 auto;
+    background-color: #fff;
+}
